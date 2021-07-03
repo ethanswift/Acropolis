@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9392F931DF9245FFD10094B3 /* Pods_Acropolis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47839FDE1419EC15D6D98661 /* Pods_Acropolis.framework */; };
 		C04730FF268A91DD00BC496A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04730FE268A91DD00BC496A /* AppDelegate.swift */; };
 		C0473101268A91DD00BC496A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0473100268A91DD00BC496A /* SceneDelegate.swift */; };
 		C0473103268A91DD00BC496A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0473102268A91DD00BC496A /* ViewController.swift */; };
 		C0473106268A91DD00BC496A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0473104268A91DD00BC496A /* Main.storyboard */; };
 		C0473108268A91DF00BC496A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0473107268A91DF00BC496A /* Assets.xcassets */; };
 		C047310B268A91DF00BC496A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0473109268A91DF00BC496A /* LaunchScreen.storyboard */; };
+		C0473139268BA85800BC496A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0473138268BA85800BC496A /* GoogleService-Info.plist */; };
+		C047313B268CB79000BC496A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047313A268CB79000BC496A /* SignInViewController.swift */; };
+		C047313D268CBBA200BC496A /* SelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047313C268CBBA200BC496A /* SelectTableViewController.swift */; };
+		C047313F268CBCD700BC496A /* BooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047313E268CBCD700BC496A /* BooksTableViewController.swift */; };
+		C0473141268CBDB500BC496A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0473140268CBDB500BC496A /* NetworkManager.swift */; };
+		C0473143268CCCAA00BC496A /* Subjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0473142268CCCAA00BC496A /* Subjects.swift */; };
+		C0473145268F0FE600BC496A /* UserSelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0473144268F0FE600BC496A /* UserSelectTableViewController.swift */; };
+		C0473147268F0FFB00BC496A /* UserBooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0473146268F0FFB00BC496A /* UserBooksTableViewController.swift */; };
+		C0473149268F103000BC496A /* UserFavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0473148268F103000BC496A /* UserFavoritesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47839FDE1419EC15D6D98661 /* Pods_Acropolis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Acropolis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AF4912BD30685445FBC0DD /* Pods-Acropolis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acropolis.debug.xcconfig"; path = "Target Support Files/Pods-Acropolis/Pods-Acropolis.debug.xcconfig"; sourceTree = "<group>"; };
+		B8431A4AEF6274C8D73FC0AC /* Pods-Acropolis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acropolis.release.xcconfig"; path = "Target Support Files/Pods-Acropolis/Pods-Acropolis.release.xcconfig"; sourceTree = "<group>"; };
 		C04730FB268A91DD00BC496A /* Acropolis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acropolis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04730FE268A91DD00BC496A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0473100268A91DD00BC496A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,15 @@
 		C0473107268A91DF00BC496A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C047310A268A91DF00BC496A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C047310C268A91DF00BC496A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0473138268BA85800BC496A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C047313A268CB79000BC496A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		C047313C268CBBA200BC496A /* SelectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTableViewController.swift; sourceTree = "<group>"; };
+		C047313E268CBCD700BC496A /* BooksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableViewController.swift; sourceTree = "<group>"; };
+		C0473140268CBDB500BC496A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C0473142268CCCAA00BC496A /* Subjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subjects.swift; sourceTree = "<group>"; };
+		C0473144268F0FE600BC496A /* UserSelectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelectTableViewController.swift; sourceTree = "<group>"; };
+		C0473146268F0FFB00BC496A /* UserBooksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBooksTableViewController.swift; sourceTree = "<group>"; };
+		C0473148268F103000BC496A /* UserFavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFavoritesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9392F931DF9245FFD10094B3 /* Pods_Acropolis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A50EEDC7B0546CA1555E9D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71AF4912BD30685445FBC0DD /* Pods-Acropolis.debug.xcconfig */,
+				B8431A4AEF6274C8D73FC0AC /* Pods-Acropolis.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5BE4957B6DA8BF54105047E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47839FDE1419EC15D6D98661 /* Pods_Acropolis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C04730F2268A91DD00BC496A = {
 			isa = PBXGroup;
 			children = (
 				C04730FD268A91DD00BC496A /* Acropolis */,
 				C04730FC268A91DD00BC496A /* Products */,
+				2A50EEDC7B0546CA1555E9D8 /* Pods */,
+				5BE4957B6DA8BF54105047E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +102,18 @@
 				C0473100268A91DD00BC496A /* SceneDelegate.swift */,
 				C0473102268A91DD00BC496A /* ViewController.swift */,
 				C0473104268A91DD00BC496A /* Main.storyboard */,
+				C0473144268F0FE600BC496A /* UserSelectTableViewController.swift */,
+				C0473146268F0FFB00BC496A /* UserBooksTableViewController.swift */,
+				C0473148268F103000BC496A /* UserFavoritesTableViewController.swift */,
+				C0473140268CBDB500BC496A /* NetworkManager.swift */,
+				C047313E268CBCD700BC496A /* BooksTableViewController.swift */,
+				C047313C268CBBA200BC496A /* SelectTableViewController.swift */,
+				C0473142268CCCAA00BC496A /* Subjects.swift */,
+				C047313A268CB79000BC496A /* SignInViewController.swift */,
 				C0473107268A91DF00BC496A /* Assets.xcassets */,
 				C0473109268A91DF00BC496A /* LaunchScreen.storyboard */,
 				C047310C268A91DF00BC496A /* Info.plist */,
+				C0473138268BA85800BC496A /* GoogleService-Info.plist */,
 			);
 			path = Acropolis;
 			sourceTree = "<group>";
@@ -74,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C047310F268A91DF00BC496A /* Build configuration list for PBXNativeTarget "Acropolis" */;
 			buildPhases = (
+				4ABC3FA92168394D776CA78E /* [CP] Check Pods Manifest.lock */,
 				C04730F7268A91DD00BC496A /* Sources */,
 				C04730F8268A91DD00BC496A /* Frameworks */,
 				C04730F9268A91DD00BC496A /* Resources */,
+				71D5D5CFFE90A3124EF5F29A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C047310B268A91DF00BC496A /* LaunchScreen.storyboard in Resources */,
+				C0473139268BA85800BC496A /* GoogleService-Info.plist in Resources */,
 				C0473108268A91DF00BC496A /* Assets.xcassets in Resources */,
 				C0473106268A91DD00BC496A /* Main.storyboard in Resources */,
 			);
@@ -133,13 +187,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4ABC3FA92168394D776CA78E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Acropolis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D5D5CFFE90A3124EF5F29A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Acropolis/Pods-Acropolis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Acropolis/Pods-Acropolis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Acropolis/Pods-Acropolis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C04730F7268A91DD00BC496A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C047313B268CB79000BC496A /* SignInViewController.swift in Sources */,
+				C0473147268F0FFB00BC496A /* UserBooksTableViewController.swift in Sources */,
 				C0473103268A91DD00BC496A /* ViewController.swift in Sources */,
+				C047313F268CBCD700BC496A /* BooksTableViewController.swift in Sources */,
+				C0473141268CBDB500BC496A /* NetworkManager.swift in Sources */,
+				C0473143268CCCAA00BC496A /* Subjects.swift in Sources */,
+				C0473149268F103000BC496A /* UserFavoritesTableViewController.swift in Sources */,
+				C0473145268F0FE600BC496A /* UserSelectTableViewController.swift in Sources */,
 				C04730FF268A91DD00BC496A /* AppDelegate.swift in Sources */,
+				C047313D268CBBA200BC496A /* SelectTableViewController.swift in Sources */,
 				C0473101268A91DD00BC496A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +386,7 @@
 		};
 		C0473110268A91DF00BC496A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71AF4912BD30685445FBC0DD /* Pods-Acropolis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +405,7 @@
 		};
 		C0473111268A91DF00BC496A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8431A4AEF6274C8D73FC0AC /* Pods-Acropolis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
